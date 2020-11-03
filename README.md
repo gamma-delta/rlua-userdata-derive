@@ -45,3 +45,8 @@ The Index method (reading a value) ALWAYS CLONES THE FIELD. If you don't want th
 use my [handy-dandy PR for rlua!](https://github.com/gamma-delta/rlua-arcmux-userdata)
 It lets `Arc<Mutex<T>> where T: 'static + UserData + Default` implement UserData
 and pass through all the metamethods.
+
+
+## License
+
+MIT
