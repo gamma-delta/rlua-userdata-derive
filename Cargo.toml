@@ -6,11 +6,13 @@ edition = "2018"
 authors = ["gamma-delta"]
 license = "MIT"
 description = "Derive UserData for your structs and access their fields in rlua"
+homepage = "https://github.com/gamma-delta/rlua-userdata-derive"
+repository = "https://github.com/gamma-delta/rlua-userdata-derive"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-rud-proc-macro = {path = "../rud-proc-macro"}
-rud-internal = {path = "../rud-internal"}
+rud-proc-macro = {git = "https://github.com/gamma-delta/rud-proc-macro"}
+rud-internal = {git = "https://github.com/gamma-delta/rud-internal"}
 
 rlua = {git = "https://github.com/gamma-delta/rlua-arcmux-userdata"}
