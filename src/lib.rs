@@ -44,5 +44,5 @@
 //! It lets `Arc<Mutex<T>> where T: 'static + UserData + Default` implement UserData
 //! and pass through all the metamethods.
 
-pub use rud_internal::*;
-pub use rud_proc_macro::*;
+pub use rud_internal;
+pub use rud_proc_macro::UserData;
